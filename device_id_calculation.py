@@ -1,4 +1,4 @@
-addr = 101
+addr = 256
 
 def encode_hdlc_address_2bytes(address):
     lower_7 = (address & 0x7F) << 1 | 0x01  # Last byte (LSB = 1)
